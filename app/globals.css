@@ -5,27 +5,11 @@
 :root {
   --bg: #fafafa;
   --fg: #0f172a;
-  --muted: #475569;
-  --card: #ffffff;
-  --ring: #93c5fd;
 }
 
-html, body {
-  height: 100%;
-  background: var(--bg);
-  color: var(--fg);
-}
+html, body { height: 100%; background: var(--bg); color: var(--fg); }
 
-.card {
-  @apply bg-white rounded-2xl shadow-soft p-6;
-}
-
-.btn {
-  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition;
-}
-.btn-primary {
-  @apply bg-brand text-white hover:bg-brand-700 focus:outline-none focus:ring-4;
-}
-.btn-ghost {
-  @apply bg-white/70 backdrop-blur hover:bg-white;
-}
+.card { @apply bg-white rounded-2xl shadow-soft p-6; }
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition; }
+.btn-primary { @apply bg-brand text-white hover:bg-brand-700 focus:outline-none focus:ring-4; }
+.btn-ghost { @apply bg-white/70 backdrop-blur hover:bg-white; }

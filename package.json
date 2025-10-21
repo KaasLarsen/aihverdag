@@ -1,29 +1,22 @@
 {
-  "name": "aihverdag",
+  "name": "aihverdag-js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "next": "14.2.5",
-    "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest",
-    "clsx": "latest"
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "lucide-react": "0.441.0",
+    "clsx": "2.1.1"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest",
-    "@next/mdx": "latest",
-    "remark-gfm": "latest"
+    "tailwindcss": "3.4.10",
+    "postcss": "8.4.41",
+    "autoprefixer": "10.4.20"
   }
 }

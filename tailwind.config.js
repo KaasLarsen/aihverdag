@@ -1,15 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{ts,tsx,mdx}',
-    './components/**/*.{ts,tsx,mdx}',
-    './content/**/*.{mdx,md}',
+    './app/**/*.{js,jsx}',
+    './components/**/*.{js,jsx}',
   ],
   theme: {
-    container: {
-      center: true,
-      padding: '1rem'
-    },
+    container: { center: true, padding: '1rem' },
     extend: {
       colors: {
         brand: {
@@ -24,15 +20,11 @@ module.exports = {
           700: '#1d4ed8',
           800: '#1e40af',
           900: '#1e3a8a',
-        }
+        },
       },
-      borderRadius: {
-        '2xl': '1.25rem'
-      },
-      boxShadow: {
-        soft: '0 10px 25px -10px rgba(0,0,0,0.15)'
-      }
-    }
+      borderRadius: { '2xl': '1.25rem' },
+      boxShadow: { soft: '0 10px 25px -10px rgba(0,0,0,0.15)' },
+    },
   },
   plugins: [],
-}
+};
