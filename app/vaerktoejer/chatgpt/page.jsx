@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Tool() {
   return (
-    <div className="container py-12 prose max-w-2xl">
+    <div className="container py-12 max-w-2xl">
       <h1>ChatGPT – kom godt i gang</h1>
       <p><strong>Kort fortalt:</strong> ChatGPT er en alsidig hjælper til tekst, ideer og forklaringer.</p>
 

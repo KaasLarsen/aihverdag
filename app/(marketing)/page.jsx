@@ -29,10 +29,10 @@ function Hero() {
           Trin-for-trin guides, skabeloner og konkrete eksempler – uden nørdesnak.
         </p>
         <div className="mt-8 flex items-center justify-center gap-3">
-          <a className="btn btn-primary" href="/guides">
+          <a className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition bg-brand text-white hover:bg-brand-700 focus:outline-none focus:ring-4" href="/guides">
             Find en guide <ChevronRight className="ml-1 w-4 h-4" />
           </a>
-          <a className="btn btn-ghost" href="/skabeloner">
+          <a className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition bg-white/70 backdrop-blur hover:bg-white" href="/skabeloner">
             Se skabeloner
           </a>
         </div>
@@ -51,7 +51,7 @@ function QuickTiles() {
     <section className="container py-12">
       <div className="grid md:grid-cols-3 gap-6">
         {tiles.map((t, i) => (
-          <a key={i} href={t.href} className="card hover:-translate-y-0.5 transition">
+          <a key={i} href={t.href} className="bg-white rounded-2xl shadow-soft p-6 hover:-translate-y-0.5 transition">
             <div className="flex items-center gap-3">
               <div className="p-2 rounded-xl bg-brand/10 text-brand">{t.icon}</div>
               <div className="font-medium">{t.title}</div>
@@ -74,7 +74,7 @@ function Features() {
     <section className="container py-12">
       <div className="grid md:grid-cols-3 gap-6">
         {features.map((f, i) => (
-          <div key={i} className="card">
+          <div key={i} className="bg-white rounded-2xl shadow-soft p-6">
             <div className="text-lg font-medium">{f.title}</div>
             <p className="text-slate-600 mt-2">{f.desc}</p>
           </div>
@@ -87,12 +87,12 @@ function Features() {
 function CTA() {
   return (
     <section className="container py-16 text-center">
-      <div className="card">
+      <div className="bg-white rounded-2xl shadow-soft p-6">
         <h2 className="text-2xl md:text-3xl font-semibold">Klar til at spare tid?</h2>
         <p className="text-slate-600 mt-2">Start med vores mest populære guides og skabeloner.</p>
         <div className="mt-6 flex justify-center gap-3">
-          <a className="btn btn-primary" href="/guides">Se guides</a>
-          <a className="btn btn-ghost" href="/skabeloner">Se skabeloner</a>
+          <a className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition bg-brand text-white hover:bg-brand-700 focus:outline-none focus:ring-4" href="/guides">Se guides</a>
+          <a className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition bg-white/70 backdrop-blur hover:bg-white" href="/skabeloner">Se skabeloner</a>
         </div>
       </div>
     </section>

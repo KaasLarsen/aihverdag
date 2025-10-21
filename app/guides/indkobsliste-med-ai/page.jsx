@@ -5,7 +5,7 @@
 
   export default function Guide() {
     return (
-      <div className="container py-12 prose max-w-2xl">
+      <div className="container py-12 max-w-2xl">
         <h1>Lav en indkøbsliste på 2 min med AI</h1>
         <p><strong>TL;DR:</strong> Brug en kort prompt og få en pæn liste med mængder – kopiér direkte til Notes eller Sheets.</p>
 

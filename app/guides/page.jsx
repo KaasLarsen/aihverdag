@@ -11,7 +11,7 @@ export default function Page() {
       <p className="text-slate-600 mt-2">Filtrerbar oversigt (MVP: statisk liste).</p>
       <div className="grid md:grid-cols-3 gap-6 mt-6">
         {guides.map(g => (
-          <a href={`/guides/${g.slug}`} key={g.slug} className="card hover:-translate-y-0.5 transition">
+          <a href={`/guides/${g.slug}`} key={g.slug} className="bg-white rounded-2xl shadow-soft p-6 hover:-translate-y-0.5 transition">
             <div className="text-lg font-medium">{g.title}</div>
             <div className="mt-2 text-sm text-slate-600">Tid: {g.time} • Niveau: {g.level}</div>
           </a>

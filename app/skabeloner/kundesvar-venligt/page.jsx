@@ -5,7 +5,7 @@
 
   export default function Template() {
     return (
-      <div className="container py-12 prose max-w-2xl">
+      <div className="container py-12 max-w-2xl">
         <h1>Skabelon: Kundeservice-svar (hurtigt og venligt)</h1>
         <p><strong>Formål:</strong> Svar hurtigt, venligt og præcist – og få kunden til at føle sig hjulpet.</p>
 

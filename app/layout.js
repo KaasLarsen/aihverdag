@@ -31,7 +31,7 @@ function SiteHeader() {
           <a href="/vaerktoejer" className="hover:text-slate-900">Værktøjer</a>
           <a href="/om" className="hover:text-slate-900">Om</a>
         </nav>
-        <a href="#nyhedsbrev" className="btn btn-primary text-sm">Få tips på mail</a>
+        <a href="#nyhedsbrev" className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition bg-brand text-white hover:bg-brand-700 focus:outline-none focus:ring-4 text-sm">Få tips på mail</a>
       </div>
     </header>
   );
@@ -58,7 +58,7 @@ function SiteFooter() {
           <form className="flex gap-2" onSubmit={(e)=>e.preventDefault()}>
             <input type="email" required placeholder="din@email"
                    className="flex-1 rounded-2xl border px-4" />
-            <button className="btn btn-primary">Tilmeld</button>
+            <button className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium transition bg-brand text-white hover:bg-brand-700 focus:outline-none focus:ring-4 text-sm">Tilmeld</button>
           </form>
           <p className="text-xs mt-2">1–2 mails/måned. Afmeld når som helst.</p>
         </div>

@@ -12,7 +12,7 @@ export default function Page() {
       <p className="text-slate-600 mt-2">Hvad kan de, hvad koster de – og hvordan kommer du i gang.</p>
       <div className="grid md:grid-cols-4 gap-6 mt-6">
         {tools.map(t => (
-          <a key={t.slug} href={`/vaerktoejer/${t.slug}`} className="card hover:-translate-y-0.5 transition">
+          <a key={t.slug} href={`/vaerktoejer/${t.slug}`} className="bg-white rounded-2xl shadow-soft p-6 hover:-translate-y-0.5 transition">
             <div className="text-lg font-medium">{t.title}</div>
             <p className="text-slate-600 mt-2">3 hurtige startopgaver.</p>
           </a>
